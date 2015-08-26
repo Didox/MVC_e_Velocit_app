@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TradeVision">
+</Property><Property Name="Solution File" Value="C:\atmosfera\Atmosfera\TradeVision.sln">
+</Property><Property Name="Date" Value="quarta-feira, 26 de agosto de 2015">
+</Property><Property Name="Time" Value="08:05">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Business" Source="Business\Business.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Business" Source="Business\Business.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DataBase" Source="DataBase\DataBase.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DataBase" Source="DataBase\DataBase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Migracao" Source="Migracao\Migracao.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Migracao" Source="Migracao\Migracao.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TradeVision" Source="Atmosfera\TradeVision.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TradeVision" Source="Atmosfera\TradeVision.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TradeVision.Tests" Source="Atmosfera.Tests\TradeVision.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TradeVision.Tests" Source="Atmosfera.Tests\TradeVision.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Explorer" Source="Explorer\Explorer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Explorer" Source="Explorer\Explorer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TradeVision.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TradeVision.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Business" Source="Business\Business.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DataBase" Source="DataBase\DataBase.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Migracao" Source="Migracao\Migracao.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TradeVision" Source="Atmosfera\TradeVision.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TradeVision.Tests" Source="Atmosfera.Tests\TradeVision.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Explorer" Source="Explorer\Explorer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

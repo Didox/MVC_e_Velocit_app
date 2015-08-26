@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>Explorer</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="javascript/jquery-1.4.1.js"></script>
+    <script type="text/javascript" src="javascript/javascript.js"></script>
+
+</head>
+<body bottommargin="0" vlink="black" alink="black" link="black" leftmargin="0" topmargin="0"
+    rightmargin="0" onresize="resizeWindow()" >
+    <div align="center" id="divStatus" style="position: absolute; display: none; font-family: verdana;
+        font-size: 10; border: 1px solid black; padding: 20">
+        <img src="imagens/loading.gif"><br>
+        Obtendo o conteúdo da Pasta. Aguarde...
+    </div>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+            <td>
+                <table cellspacing="3" cellpadding="3" width="100%" background="imagens/topo/backTopo.jpg"
+                    border="0">
+                    <tr>
+                        <td class="out" onmouseover="changeButton( this , 'over' )" onmouseout="changeButton( this , 'out' )"
+                            align="center" width="30">
+                            <a href="javascript:loadingFolder( '' , false )">
+                                <img alt="Raiz" src="imagens/topo/root.gif" border="0"></a>
+                        </td>
+                        <td class="out" onmouseover="changeButton( this , 'over' )" onmouseout="changeButton( this , 'out' )"
+                            align="center" width="28">
+                            <a href="javascript:backFolder()">
+                                <img alt="Voltar" src="imagens/topo/back.gif" border="0" id="imgBack"></a>
+                        </td>
+                        <td width="5">
+                            <img src="imagens/topo/separador.gif">
+                        </td>
+                        <td width="120" class="textLateral">
+                            Ícones
+                            <input id="rIcon" type="radio" name="rTypeView" onclick="alterView( 'icons' )">
+                            Lista
+                            <input id="rList" type="radio" name="rTypeView" onclick="alterView( 'list' )">
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <table background="imagens/topo/backTopo.jpg" width="100%" cellpadding="0" cellspacing="2"
+                    border="0">
+                    <tr>
+                        <th class="name" width="60" style="padding-right: 5">
+                            Endereço:
+                        </th>
+                        <td width="100%" height="16" id="txtEndereco">
+                            <select id="selPath" style="width: 100%!important; padding: border:1px solid black;
+                                font-size: 10; font-family: verdana" onchange="loadingFolder( this.value , false )">
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="100%" height="100%">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" height="100%">
+                    <tr>
+                        <td bgcolor="#6F8BDE" valign="top" style="padding: 10">
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#D6DFF7">
+                                <tr>
+                                    <td>
+                                        <a href="javascript:display( 'tarefas' , 'imgTarefa' , 'pfopen.gif' , 'pfclose.gif' )">
+                                            <img id="imgTarefa" src="imagens/lateral/pfopen.gif" hspace="0" vspace="0" border="0"></a>
+                                    </td>
+                                </tr>
+                                <tr id="tarefas" style="display: block">
+                                    <td style="padding: 5" valign="top">
+                                            <li>
+                                                <img src="imagens/lateral/newFolder.gif" vspace="0" hspace="0" align="middle">
+                                                <a class="lateral" href="javascript:newFolder()">Criar uma nova pasta</a>
+                                            </li>
+                                            <li id="liImgRel" style="display: none">
+                                                <img src="imagens/lateral/rename.GIF" vspace="0" hspace="0" align="middle">
+                                                <a class="lateral" href="javascript:renameFolder()">Renomear</a>
+                                            </li>
+                                            <li id="liImgDel" style="display: none">
+                                                <img src="imagens/lateral/delete.gif" vspace="0" hspace="0" align="middle">
+                                                <a class="lateral" href="javascript:deleteItem()"><span id="txtImgDel">Excluir</span></a>
+                                            </li>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#D6DFF7"
+                                id="Table2">
+                                <tr>
+                                    <td>
+                                        <a href="javascript:display( 'upload' , 'imgUp' , 'upOpen.gif' , 'upClose.gif' )">
+                                            <img id="imgUp" src="imagens/lateral/upClose.gif" hspace="0" vspace="0" border="0"></a>
+                                    </td>
+                                </tr>
+                                <tr id="upload" style="display: none">
+                                    <td>
+                                        <iframe src="upload.aspx" id="ifrUpload" width="100%" height="120" scrolling="no"
+                                            frameborder="no"></iframe>
+                                    </td>
+                                </tr>
+                                <tr id="uploadBar" style="display: none">
+                                    <td height="50" style="font-family: verdana; font-size: 10; font-weight: bold; padding-left: 10">
+                                        Uploading...
+                                        <img src="imagens/progress.gif" vspace="5" width="220">
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#D6DFF7">
+                                <tr>
+                                    <td>
+                                        <a href="javascript:display( 'detalhes' , 'imgDet' , 'detOpen.gif' , 'detClose.gif' )">
+                                            <img id="imgDet" src="imagens/lateral/detOpen.gif" hspace="0" vspace="0" border="0"></a>
+                                    </td>
+                                </tr>
+                                <tr id="detalhes" style="display: block">
+                                    <td style="padding: 5" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="5" width="100%">
+                                            <tr>
+                                                <td id="tdNameItem" style="font-weight: bold;" class="textLateral">
+                                                    Raiz
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td id="tdDescription" class="textLateral">
+                                                    Pasta de Arquivos
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td id="tdItensQtd" class="textLateral">
+                                                </td>
+                                            </tr>
+                                            <tr id="trImagePreview" style="display: none">
+                                                <td align="center" style="padding-top: 10">
+                                                    <img id="imgPreview" width="220">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td onmouseup="unSelectItem()" valign="top" width="100%">
+                            <div id="list" style="width: 100%; height: 100%; overflow: scroll;">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        loadingFolder("", false)
+    </script>
+
+</body>
+</html>

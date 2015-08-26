@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Visualização de Imagem</title>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="resize()" oncontextmenu="return false">
+<table border=0 align=center cellpadding=0 cellspacing=0 width=100% height=100%>
+	<tr>
+		<td valign=middle align=center height="100%">
+			<img>
+		</td>
+	</tr>
+</table>
+</body>
+<script>
+img = document.images[0]
+source = location.search.substring( 5 , location.search.length )
+img.src = unescape( source )
+
+function resize()
+{
+	if( img.complete )
+		if( img.width > 250 && img.width < screen.width && img.height < screen.height )
+			window.resizeTo( img.width + 30 , img.height + 40 )
+		else if( img.width > 250 )
+			window.resizeTo( screen.width - 100 , screen.height - 100 )
+	else
+		window.setTimeout( 'resize()',250 )
+}
+</script>
+</html>

@@ -1,0 +1,9 @@
+﻿#frmLoginAtimosfera fieldset{ width:270px; margin: 0 auto; }
+#frmLoginAtimosfera fieldset div .line { margin:5px; }
+#frmLoginAtimosfera fieldset div h1 { margin: 0 auto; }
+#frmLoginAtimosfera fieldset div .error { margin:5px; color:Red; font-weight:bold; }
+#frmLoginAtimosfera fieldset div div div { margin-right:5px; float:left; width:40px; }
+
+#tabs-DadosAdicionais .rol { clear:both; }
+#tabs-DadosAdicionais .rol .col { float:left; margin-right: 10px; padding:2px; width: 150px; }
+#tabs-DadosAdicionais .rol .col label { clear:both; }

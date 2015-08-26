@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<explorer>
+  <item>
+    <name>vrv</name>
+    <image>icones/folder.gif</image>
+    <path>vrv</path>
+    <type>folder</type>
+    <description>Pasta de arquivos</description>
+  </item>
+  <item>
+    <name>wefwefewfwe</name>
+    <image>icones/folder.gif</image>
+    <path>wefwefewfwe</path>
+    <type>folder</type>
+    <description>Pasta de arquivos</description>
+  </item>
+  <item>
+    <name>Novo(a) Som Wave.wav</name>
+    <image>icones/midia.gif</image>
+    <path>arquivos/Novo(a) Som Wave.wav</path>
+    <type>file</type>
+    <description>Som Wave</description>
+  </item>
+  <item>
+    <name>S3010012.JPG</name>
+    <image>icones/jpg.gif</image>
+    <path>arquivos/S3010012.JPG</path>
+    <type>image</type>
+    <description>JPEG Image</description>
+  </item>
+  <item>
+    <name>Thumbs.db</name>
+    <image>
+    </image>
+    <path>arquivos/Thumbs.db</path>
+    <type>file</type>
+    <description>
+    </description>
+  </item>
+</explorer>

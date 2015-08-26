@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{D01E8306-1B85-4163-92A2-3E4EC3134E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{86F662A6-6715-4968-9A14-CD2E3F2FD416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migracao", "Migracao\Migracao.csproj", "{02764979-D524-4D32-BA12-FEB5BD0F2C7A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Admin", "Admin", "{B6537750-8567-46E4-B203-96EFF7D016A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/Atmosfera.root/Atmosfera", RAOAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = ".."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D01E8306-1B85-4163-92A2-3E4EC3134E34}|Business.dll;{86F662A6-6715-4968-9A14-CD2E3F2FD416}|DataBase.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Admin"
+		Debug.AspNetCompiler.PhysicalPath = "Admin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Admin\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Admin"
+		Release.AspNetCompiler.PhysicalPath = "Admin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Admin\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4275"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atmosfera", "Atmosfera\Atmosfera.csproj", "{C36B7FBB-D7E9-439D-ABDA-DE98C1F7AB0B}"
+EndProject
+Project("{00000000-0000-0000-0000-000000000000}") = "Atmosfera.Tests", "Atmosfera.Tests\Atmosfera.Tests.csproj", "{D6E89B29-942A-4EE0-A11F-74B2D7353435}"
+EndProject
+Project("{00000000-0000-0000-0000-000000000000}") = "Explorer", "Explorer\Explorer.csproj", "{AD748915-3128-4CFD-948A-FCAA59A6AACC}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = Admin
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Admin\\
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Business\\Business.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Business\\
+		SccProjectUniqueName3 = DataBase\\DataBase.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = DataBase\\
+		SccProjectUniqueName4 = Migracao\\Migracao.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Migracao\\
+		SccProjectUniqueName5 = Atmosfera.Tests\\Atmosfera.Tests.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Atmosfera.Tests\\
+		SccProjectUniqueName6 = Atmosfera\\Atmosfera.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = Atmosfera\\
+		SccProjectUniqueName7 = Explorer\\Explorer.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = Explorer\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01E8306-1B85-4163-92A2-3E4EC3134E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01E8306-1B85-4163-92A2-3E4EC3134E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01E8306-1B85-4163-92A2-3E4EC3134E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01E8306-1B85-4163-92A2-3E4EC3134E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F662A6-6715-4968-9A14-CD2E3F2FD416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F662A6-6715-4968-9A14-CD2E3F2FD416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F662A6-6715-4968-9A14-CD2E3F2FD416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F662A6-6715-4968-9A14-CD2E3F2FD416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02764979-D524-4D32-BA12-FEB5BD0F2C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02764979-D524-4D32-BA12-FEB5BD0F2C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02764979-D524-4D32-BA12-FEB5BD0F2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02764979-D524-4D32-BA12-FEB5BD0F2C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6537750-8567-46E4-B203-96EFF7D016A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6537750-8567-46E4-B203-96EFF7D016A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6537750-8567-46E4-B203-96EFF7D016A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6537750-8567-46E4-B203-96EFF7D016A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C36B7FBB-D7E9-439D-ABDA-DE98C1F7AB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36B7FBB-D7E9-439D-ABDA-DE98C1F7AB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36B7FBB-D7E9-439D-ABDA-DE98C1F7AB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36B7FBB-D7E9-439D-ABDA-DE98C1F7AB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E89B29-942A-4EE0-A11F-74B2D7353435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E89B29-942A-4EE0-A11F-74B2D7353435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E89B29-942A-4EE0-A11F-74B2D7353435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E89B29-942A-4EE0-A11F-74B2D7353435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD748915-3128-4CFD-948A-FCAA59A6AACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD748915-3128-4CFD-948A-FCAA59A6AACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD748915-3128-4CFD-948A-FCAA59A6AACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD748915-3128-4CFD-948A-FCAA59A6AACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

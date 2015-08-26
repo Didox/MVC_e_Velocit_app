@@ -1,0 +1,9 @@
+A { TEXT-DECORATION: none }
+.name { FONT-SIZE: 10px; FONT-FAMILY: verdana }
+.over { BORDER-RIGHT: #0053a5 1px solid; BORDER-TOP: #0053a5 1px solid; BORDER-LEFT: #0053a5 1px solid; BORDER-BOTTOM: #0053a5 1px solid; BACKGROUND-COLOR: #d2e2ff }
+.out { BORDER-RIGHT: #ececec 1px solid; BORDER-TOP: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; BORDER-BOTTOM: #ececec 1px solid; BACKGROUND-COLOR: #ececec }
+.unSelectedItem { BACKGROUND-COLOR: #ffffff }
+.selectedItem { BACKGROUND-COLOR: #d2e2ff }
+a.lateral{ font-size:10;font-family:verdana;color:#215DC6 }
+.textLateral{ font-size:10;font-family:verdana;color:#000000  }
+li{ list-style-type:none;}

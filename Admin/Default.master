@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+     <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+     <script type="text/javascript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
+     <link rel="stylesheet" href="css/jquery-ui-1.8.13.custom.css" type="text/css" />
+     <link rel="stylesheet" href="css/ui.datepicker.css" type="text/css" />
+     <script type="text/javascript" src="js/jquery-custom-ui.js"></script>
+     <script type="text/javascript" src="js/cadastro.js"></script>
+     <script type="text/javascript" src="js/format_inputs.js"></script>
+     <link rel="stylesheet" href="css/admin.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <fieldset>
+            <legend>TradeVision</legend>
+                    <asp:LinkButton ID="hlSair" runat="server" onclick="hlSair_Click">Sair do sistma</asp:LinkButton>
+        </fieldset>
+    </div>
+    
+    <div id="dvConfig" runat="server">
+        <fieldset>
+            <legend>Configuração atual</legend><b>
+                <asp:Label ID="lblConfiguracao" runat="server" Text="Label"></asp:Label></b>
+        </fieldset>
+    </div>  
+    
+    <div >
+        <fieldset>
+            <legend>Menu</legend><b>
+            <asp:Button ID="btnVoltarMenu" runat="server" Text="Voltar ao menu" OnClick="btnVoltarMenu_Click" />
+            <asp:Button ID="btnChange" runat="server" Text="Mudar configuração" 
+                onclick="btnChange_Click" />        
+        </fieldset>
+    </div>       
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

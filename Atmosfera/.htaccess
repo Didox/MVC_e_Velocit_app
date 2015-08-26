@@ -1,0 +1,14 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.50
+
+#RewriteRule ^([\w]+)$ $1.mvc [NC]
+#RewriteRule ^(?!content|scripts)([\w]*)/(.*) $1.mvc/$2 [NC]
+
+RewriteEngine on
+
+
+RewriteRule \.(jpg|png|gif|js|css|swf)$ - [L] 
+
+RewriteRule ^$ Home [NC]
+RewriteRule ^([\w]*)$ $1.mvc [NC]
+RewriteRule ^(?!Content)([\w]*)/(.*) $1.mvc/$2 [NC]

@@ -1,0 +1,12 @@
+C:\atmosfera\Atmosfera\Explorer\bin\Explorer.dll
+C:\atmosfera\Atmosfera\Explorer\bin\Explorer.pdb
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\ResolveAssemblyReference.cache
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\explorer.renameItem.resources
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\explorer.createFolder.resources
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\explorer.deleteItem.resources
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\explorer.itensFolder.resources
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\explorer.Upload.resources
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\Explorer.dll
+C:\atmosfera\Atmosfera\Explorer\obj\Debug\Explorer.pdb

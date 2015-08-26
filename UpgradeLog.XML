@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Atmosfera">
+</Property><Property Name="Solution File" Value="C:\atmosfera\Atmosfera\Atmosfera.sln">
+</Property><Property Name="Date" Value="quarta-feira, 26 de agosto de 2015">
+</Property><Property Name="Time" Value="08:01">
+</Property></Properties><Event ErrorLevel="0" Project="Business" Source="Business\Business.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Business" Source="Business\Business.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DataBase" Source="DataBase\DataBase.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DataBase" Source="DataBase\DataBase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Migracao" Source="Migracao\Migracao.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Migracao" Source="Migracao\Migracao.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="Atmosfera" Source="Atmosfera\Atmosfera.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="Atmosfera.Tests" Source="Atmosfera.Tests\Atmosfera.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Atmosfera.Tests" Source="Atmosfera.Tests\Atmosfera.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Explorer" Source="Explorer\Explorer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Explorer" Source="Explorer\Explorer.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="Business" Source="Business\Business.csproj" Description="The application for the project is not installed.&#xA;">
+</Event><Event ErrorLevel="2" Project="DataBase" Source="DataBase\DataBase.csproj" Description="The application for the project is not installed.&#xA;">
+</Event><Event ErrorLevel="2" Project="Migracao" Source="Migracao\Migracao.csproj" Description="The application for the project is not installed.&#xA;">
+</Event><Event ErrorLevel="2" Project="Atmosfera.Tests" Source="Atmosfera.Tests\Atmosfera.Tests.csproj" Description="The application for the project is not installed.&#xA;">
+</Event><Event ErrorLevel="2" Project="Explorer" Source="Explorer\Explorer.csproj" Description="The application for the project is not installed.&#xA;">
+</Event><Event ErrorLevel="0" Project="" Source="Atmosfera.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Atmosfera.sln" Description="Converted">
+</Event></UpgradeLog>

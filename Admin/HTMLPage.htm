@@ -1,0 +1,33 @@
+﻿<script type="text/javascript">
+    var menuCurrent = null;
+    var CarregaPaginasFilhas = function(self) {
+        menuCurrent = $(self);
+        var id = menuCurrent.attr("rel");
+        var menu = $("#submenu" + id);
+        if (menu.size() < 1) {
+            jQuery.ajax({
+                url: "$site/carregarpaginasfilhas?idPaginaPai=" + id,
+                success: function(data) {
+                    $(document.body).append("<div id=\"submenu" + menuCurrent.attr("rel") + "\">" + data + "</div>");
+                }
+            });
+        }
+        else menu.show();
+    }
+</script>
+
+<ul id="menu">
+#foreach($item in $menu)
+   <li>
+      <a rel="$item.IDPagina" #if($pagina == $item.Slug) 
+             href="javascript:void(0)" class="menu_selecionado" 
+          #else 
+            #if($item.Template.IDTemplate) 
+               href="$site/$area/$item.slug" 
+            #else
+               href="javascript:void(0)" onclick="javascript:CarregaPaginasFilhas(this);"
+            #end
+          #end id="menu$item.IdPagina" >$item.Nome</a>
+   </li>
+#end
+</ul>

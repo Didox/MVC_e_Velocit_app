@@ -1,0 +1,100 @@
+.login { background-color:#192160; height:590px; width:1002px; background:white url('../../../Publico/Ambev/imagens/Painel_do_Trade_Login.jpg') repeat-x center top; }
+.login .espaco { height:380px; }
+
+.login #dvLoginCentral{ height:140px; width:470px; margin:0 auto; *margin-left:265px; }
+.login #dvLoginCentral div{ color:#fff; font-family:verdana; font-size:15px; }
+.login #dvLoginCentral div a { color:#fff; font-family:verdana; font-size:15px; font-weight:bold; text-decoration: none; }
+.login #dvLoginCentral div a:hover { color:#fff; font-family:verdana; font-size:15px; text-decoration:underline;}
+.login #dvLoginCentral .esqueciasenha{ clear:both; }
+.login #dvLoginCentral .componentelogin{ height:75px; }
+.login #dvLoginCentral #dvLogin{ margin-top:5px; }
+.login #dvLoginCentral #dvLogin .rol{ clear:both; }
+.login #dvLoginCentral #dvLogin .col{ float:left; color:#be9f5e; font-weight:bold; width:60px; margin:2px; }
+.login #dvLoginCentral #dvLogin #dvLoginInput input{ width:300px; }
+.login #dvLoginCentral #dvLogin #dvLoginInput{ float:left; width:380px; }
+.login #dvLoginCentral #dvLogin #dvLoginBotao{ float:left; }
+.login #dvLoginCentral #dvLogin #dvLoginBotao #botaologin{ width:82px; color:#094d80; font-weight:bold; height:45px; border:0px; margin-top:5px; background:white url('../../../Publico/Ambev/imagens/botao.jpg') repeat-x center top; }
+.login #dvLoginCentral #dvLoginErro{ clear:both; color:#e40d0d; font-weight:bold; margin-top:10px; }
+
+.login #dvPrimeiroAcessoCentral{ height:140px; width:470px; margin:0 auto; *margin-left:265px; }
+.login #dvPrimeiroAcessoCentral div{ color:#fff; font-family:verdana; font-size:15px; }
+.login #dvPrimeiroAcessoCentral div a { color:#fff; font-family:verdana; font-size:15px; font-weight:bold; text-decoration: none; }
+.login #dvPrimeiroAcessoCentral div a:hover { color:#fff; font-family:verdana; font-size:15px; text-decoration:underline;}
+.login #dvPrimeiroAcessoCentral .esqueciasenha{ clear:both; }
+.login #dvPrimeiroAcessoCentral .componentelogin{ height:75px; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso{ margin-top:5px; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso .rol{ clear:both; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso .col{ float:left; color:#be9f5e; font-weight:bold; width:60px; margin:2px; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso #dvPrimeiroAcessoInput input{ width:300px; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso #dvPrimeiroAcessoInput{ float:left; width:380px; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso #dvPrimeiroAcessoBotao{ float:left; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcesso #dvPrimeiroAcessoBotao #botaologin{ width:82px; color:#094d80; font-weight:bold; height:45px; border:0px; margin-top:5px; background:white url('../../../Publico/Ambev/imagens/botao.jpg') repeat-x center top; }
+.login #dvPrimeiroAcessoCentral #dvPrimeiroAcessoErro{ clear:both; color:#e40d0d; font-weight:bold; margin-top:10px; }
+
+.login #dvEsqueciSenhaCentral { height:140px; width:470px; margin:0 auto; *margin-left:265px; }
+.login #dvEsqueciSenhaCentral #fmEsqueciSenha { display:none; }
+.login #dvEsqueciSenhaCentral div{ color:#fff; font-family:verdana; font-size:15px; }
+.login #dvEsqueciSenhaCentral div a { color:#fff; font-family:verdana; font-size:15px; font-weight:bold; text-decoration: none; }
+.login #dvEsqueciSenhaCentral div a:hover { color:#fff; font-family:verdana; font-size:15px; text-decoration:underline;}
+.login #dvEsqueciSenhaCentral #dvEsqueciSenha .col{ float:left; color:#be9f5e; font-weight:bold; width:60px; margin:2px; }
+.login #dvEsqueciSenhaCentral #dvEsqueciSenha input{ width:300px; }
+.login #dvEsqueciSenhaCentral #dvEsqueciSenha #rolInput{ float:left; width:380px; }
+.login #dvEsqueciSenhaCentral #dvEsqueciSenha #rolBotao{ float:left; }
+.login #dvEsqueciSenhaCentral #dvEsqueciSenha #botao_email{ width:82px; color:#094d80; font-weight:bold; border:0px; height:25px; background:white url('../../../Publico/Ambev/imagens/botao.jpg') repeat-x center top; }
+.login #dvEsqueciSenhaCentral #texto_voltar { margin:0 auto; *margin-left:195px; clear:both;width: 50px; display:none; }
+.login #dvEsqueciSenhaCentral #dvMensagemEnvio{ clear:both; color:#e40d0d; font-weight:bold; margin-top:10px; }
+
+.topo { background-color:#192160; height:157px; width:1002px; background:white url('../../../Publico/Ambev/imagens/topo_area_restrita.jpg') repeat-x center top }
+.topo #info_user{ color: #FFFFFF; float: right; font-family: verdana; font-size: 10px; height: 70px; margin-right: 19px; margin-top: 15px; text-align: right; width: 430px; }
+.topo #info_user b{ font-size: 12px; }
+.topo #info_user a { color:#fff; font-family:verdana; font-size:10px; margin-left: 6px; margin-top: 6px;text-decoration: none; display: block; width:81px; height: 19px; *height:26px; float:right; padding-top: 7px; text-align: center; background:white url('../../../Publico/Ambev/imagens/botao_topo_menu.jpg') repeat-x center top; }
+.topo #menu { list-style: none outside none; float: left; margin-top: 36px; width:960px; }
+.topo #menu li { float:left; margin:0px; padding:0px; margin-right:6px; }
+.topo #menu li a { color:#fff; font-family:verdana; font-size:13px; text-decoration: none; display: block; width:123px; height: 24px; *height:31px; padding-top: 7px; text-align: center; background:white url('../../../Publico/Ambev/imagens/botao_menu_out_area_restrita.jpg') repeat-x center top; }
+.topo #menu li a:hover { color:#004982; background:white url('../../../Publico/Ambev/imagens/botao_menu_in_area_restrita.jpg') repeat-x center top; }
+.topo #menu .menu_selecionado { color:#004982 !important; background:white url('../../../Publico/Ambev/imagens/botao_menu_in_area_restrita.jpg') repeat-x center top !important; }
+.topo #menu li .menu_select { color:#fff; background:white url('../../../Publico/Ambev/imagens/botao_menu_out_area_restrita_menu.jpg') repeat-x center top !important; }
+.topo #menu li .menu_select:hover { color:#fff !important; background:white url('../../../Publico/Ambev/imagens/botao_menu_in_area_restrita_menu.jpg') repeat-x center top !important; }
+
+.conteudo { min-height:500px; width:1002px; font-family:verdana; font-size:13px; }
+.conteudo #dvMensagemAlterarCadastro { color:Green }
+.conteudo #dvMensagemAlterarCadastroErro { color:red }
+.conteudo #dvMensagemAlterarSenha { color:Green }
+.conteudo #dvMensagemAlterarSenhaErro { color:red }
+
+.rodape { background-color:#192160; height:27px; width:1002px; background:white url('../../../Publico/Ambev/imagens/rodape_area_restrita.jpg') repeat-x center top }
+
+.submenu { position:absolute; width:123px; }
+.submenu ul { list-style: none; margin-left:-40px !important; margin-top:1px !important; }
+.submenu ul li { margin-top:1px !important; }
+.submenu ul a { color:#fff !important; background:#004982 !important; border:1px solid #ad9265; width:121px !important; }
+.submenu ul a:hover { color:#004982 !important; background-color:#ad9265 !important; border:1px solid #004982; }
+.submenu ul .submenu_selecionado { color:#004982 !important; background-color:#ad9265 !important; border:1px solid #004982; }
+
+.adesao { font-size:10px; font-family: Verdana; padding:10px; }
+.adesao table { font-size:11px; width:985px; border:solid 0px #000; margin-top:20px; }
+.adesao .listaUsuarios { margin-top:0px !important; }
+.adesao table th { background-color:#C0A062; color:#00528E; border:solid 1px #000; }
+.adesao table td { border:solid 1px #000; }
+.adesao table tr { border:solid 1px #000; }
+.adesao table td input { background-color:#EEE8AA; width:100%; font-size:9px; font-family: Verdana; height:40px; border:1px solid #000; }
+.adesao select { font-size:12px; font-family: Verdana; border:1px solid #000; }
+
+.adesao .dvIncluirResponsavel table { width:780px !important; }
+.adesao table td .dvIncluirResponsavel { padding:10px; }
+.adesao table td .dvIncluirResponsavel legend { font-weight:bold; }
+.adesao table td .dvIncluirResponsavel input { background-color:#EEE8AA; font-size:9px; font-family: Verdana;  height: 20px; width: 200px; border:1px solid #000; }
+.adesao table td .dvIncluirResponsavel #rolBotao { float: left; margin-top:20px; }
+.adesao table td .dvIncluirResponsavel #botao_salvar { background-color:#ccc; font-size:9px; font-family: Verdana;  height: 20px; width: 60px; border:1px solid #000; }
+.adesao table td .dvIncluirResponsavel #rolBotaoCancel { float: left; margin-left: 2px; margin-top: 20px;  }
+.adesao table td .dvIncluirResponsavel #botao_cancelar { background-color:#ccc; font-size:9px; font-family: Verdana;  height: 20px; width: 60px; border:1px solid #000; }
+
+.adesao table td .dvAlterarEndereco { padding:10px; }
+.adesao table td .dvAlterarEndereco legend { font-weight:bold; }
+.adesao table td .dvAlterarEndereco input { background-color:#EEE8AA; font-size:9px; font-family: Verdana;  height: 20px; width: 200px; border:1px solid #000; }
+.adesao table td .dvAlterarEndereco #rolBotao { float: left; margin-top:20px; }
+.adesao table td .dvAlterarEndereco #botao_salvar {  background-color:#ccc; font-size:9px; font-family: Verdana;  height: 20px; width: 50px; border:1px solid #000; }
+.adesao table td .dvAlterarEndereco #rolBotaoCancel { float: left; margin-left: 2px; margin-top: 20px;  }
+.adesao table td .dvAlterarEndereco #botao_cancelar { background-color:#ccc; font-size:9px; font-family: Verdana;  height: 20px; width: 60px; border:1px solid #000; }
+
+.errorField input { border: 1px red solid; background-color:#EEEED1; }
